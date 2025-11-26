@@ -29,6 +29,7 @@ int main(){
         for (int i=0;i<n;i++){
                 visited[i]=0;
         }
+        printf("The edges of minimum spanning tree are:\n");
 
         visited[0]=1;
         for (int l=0; l<n-1; l++){
@@ -44,6 +45,7 @@ int main(){
                         }
                 }
         visited[b]=1;
+        printf("%d edges(%d %d)\t cost:%d\n",l+1,a,b,min);
         cost+=min;
         }
         printf("\n Minimum cost: %d",cost);

@@ -39,6 +39,7 @@ int main(){
                                 for(int j=0;j<n;j++){
                                         if(!visited[j]&&mincost[i][j]<min){
                                                 min=mincost[i][j];
+                                                a=i;
                                                 b=j;
                                         }
                                 }

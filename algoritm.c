@@ -1,4 +1,3 @@
-                                                                                                                                     prims_algoritm.c                                                                                                                                              
 #include<stdio.h>
 #include<stdlib.h>
 
